@@ -1,0 +1,176 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+.logo-header {
+    width: 15vh;
+    height: auto;
+}
+
+.login-button {
+    border-radius: 20vh 0vh 20vh 20vh;
+    width: 10vh;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+
+    .logo-header {
+        width: 25vh;
+        height: auto;
+    }
+
+    .login-button {
+        border-radius: 20vh 0vh 20vh 20vh;
+        width: 15vh;
+    }
+
+    .navbar-toggler {
+        border: none;
+        font-size: 1, 25rem;
+    }
+
+    .navbar-toggler:focus,
+    btn-close:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .nav-link:hover {
+        color: black;
+    }
+
+    .nav-home {
+        color: #25591f;
+    }
+
+    .header-text {
+        font-family: 'Montserrat', sans-serif;
+        padding: 20vh 5vh;
+    }
+
+    .judul-heading {
+        font-weight: 700;
+        position: relative;
+        color: #385d19;
+    }
+
+    .judul-subheading {
+        font-weight: 500;
+        color: #404040;
+    }
+
+    .img-header {
+        width: auto;
+        transform: translate(0, -10%);
+    }
+
+    .btn-more-header {
+        padding: 2vh 2vh;
+        border-radius: 20vh 20vh;
+        width: 25vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        transform: translate(0, 0.4vh);
+    }
+
+    .logo-play {
+        width: 9vh;
+        height: auto;
+        left: 38vh;
+        position: absolute;
+    }
+
+    .row-pencarian-property {
+        padding: 0 0 30vh 0 ;
+    }
+
+    .form-pencarian-property {
+        background-color: #ffffff;
+        border-radius: 20vh 20vh;
+        width: 150vh;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px rgba(1, 42, 0, 0.1)
+    }
+
+    .btn-search-property {
+        padding: 2vh 2vh;
+        border-radius: 20vh 20vh;
+        width: 20vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        transform: translate(0, -1vh);
+    }
+
+    .container-tentang-kami {
+        background-color: #f8f8f8;
+    }
+
+    .row-tentang-kami {
+        padding: 20vh 0 20vh 0;
+    }
+
+    .text-tentang-kami {
+        font-family: 'Montserrat', sans-serif;
+        padding-right: 30vh;
+    }
+
+    .text-tentang-kami h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #25591f;
+    }
+
+    .text-tentang-kami h1 {
+        color: #193F6a;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .text-tentang-kami p {
+        font-weight: 500;
+        color: #404040;
+    }
+
+    .chatbot {
+        position: fixed;
+        right: 40px;
+        bottom: 100px;
+        width: 420px;
+        overflow: hidden;
+        background-color: whitesmoke;
+        border-radius: 15px;
+        box-shadow: 0 0 128px 0 rgba(1, 42, 0, 0.1),
+                    0 32px 64px -48px rgba(1, 42, 0, 0.5);
+    }
+
+    .chatbot header {
+        background: #724ae8;
+        padding: 16px 0;
+        text-align: center;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
